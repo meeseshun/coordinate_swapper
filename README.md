@@ -6,7 +6,7 @@ QGISでコピーした座標を入力すると、自動で入れ替わった座�
 ## 使い方
 1. このプログラムはpyperclipモジュールを必要とします。
 <br>
-`pip intall pyperclip`
+`pip install pyperclip`
 
 2. `swap.py`と同じ階層のディレクトリで以下のコマンドを入れる
 <br>
