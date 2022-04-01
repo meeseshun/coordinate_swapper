@@ -4,13 +4,15 @@ Coordinate swapper for QGIS and Google Earth Pro
 QGISでコピーした座標を入力すると、自動で入れ替わった座標をコピーします。pythonで動きます。
 
 ## 使い方
-1. このプログラムはpyperclipモジュールを必要とします。
-<br>
-`pip intall pyperclip`
+1. このプログラムは`pyperclip`モジュールを必要とします。
+```
+pip intall pyperclip
+```
 
 2. `swap.py`と同じ階層のディレクトリで以下のコマンドを入れる
-<br>
-`python swap.py`
+```
+python swap.py
+```
 
 3. QGISの座標を入力します。
 
