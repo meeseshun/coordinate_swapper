@@ -17,3 +17,6 @@ python swap.py
 3. QGISの座標を入力します。
 
 4. Google Earth Proのための座標が表示されます。また、その座標が自動でコピーされます。
+
+### 使い方の動画
+https://youtu.be/vokVZv_524M
