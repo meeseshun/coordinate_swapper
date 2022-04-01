@@ -1,13 +1,15 @@
 import pyperclip as pc
 
-def main(input):
-    mappedData = map(float, input.split(","))
+def main(before_coo):
+    mappedData = map(float, before_coo.split(","))
     cor = list(mappedData)
     cor[0], cor[1] = cor[1], cor[0]
-    output = ', '.join(map(str, cor))
+    output = ','.join(map(str, cor))
     pc.copy(output)
-    print(output)   
+    print('After: ' + output + '\n')
 
 if __name__ == "__main__":
-    input = input()
-    main(input)
+    while True:
+        cordinate = input("Before: ")
+        main(cordinate)
+        continue
